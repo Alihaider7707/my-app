@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+}
+
+.boxcontainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.boxtext h1 {
+    font-weight: 500;
+    font-size: 29px;
+}
+
+.boxtext p {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.box {
+    flex: 1;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 335pt;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.box img {
+    width: 100%;
+    object-fit: cover;
+    height: 335pt;
+    cursor: pointer;
+}
+
+.box:hover {
+    flex: 4;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    width: 100%;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}

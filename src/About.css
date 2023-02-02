@@ -1,0 +1,92 @@
+.abouttext {
+    text-align: right;
+}
+
+.abouttext .abouttext2 h1 {
+    font-weight: 600;
+    font-size: 96px;
+    color: #000000;
+    line-height: 1;
+}
+
+.abouttext .abouttext2 p {
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+    max-width: 623px;
+}
+
+.abouttext .abouttext2 h2 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #000000;
+}
+
+.abouttext .abouttext2 {
+    height: 220px;
+}
+
+.aboutcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+}
+
+.aboutimage img {
+    width: 291px;
+    height: 733px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+form input {
+    width: 360px;
+    height: 47px;
+    background: #FFFFFF;
+    border: 2px solid #D1E5F3;
+    box-shadow: 0px 14px 28px rgba(156, 214, 255, 0.22);
+    border-radius: 11px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 10px;
+    color: #C2C2C2;
+}
+
+form button {
+    width: 118px;
+    height: 47px;
+    background: #6DC2FF;
+    border: 2px solid #58AAE6;
+    box-shadow: 0px 14px 28px rgba(156, 214, 255, 0.67);
+    border-radius: 11px;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.aboutpara {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.aboutpara p {
+    max-width: 1133px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}

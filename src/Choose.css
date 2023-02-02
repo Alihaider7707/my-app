@@ -1,0 +1,100 @@
+.choose {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.choose h1 {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.choose p {
+    font-size: 12px;
+    font-weight: 300;
+    max-width: 890px;
+    text-align: center;
+}
+
+.banner2-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300pt;
+}
+
+.team {
+    width: 50pt;
+}
+
+.teamw img {
+    border-radius: 100%;
+    margin-left: -50pt;
+    mask-size: 50%;
+    text-align: center;
+    width: 200pt;
+    height: 200pt;
+}
+
+.mask-1 {
+    transform: translate(0px, -30px);
+}
+
+.mask-2 {
+    transform: translate(0px, 0px);
+}
+
+.mask-3 {
+    transform: translate(0px, -60px);
+}
+
+.mask-4 {
+    transform: translate(0px, 10px);
+}
+
+.team-work1 img {
+    transform: translate(-60px);
+}
+
+.team-work2 img {
+    transform: translate(-60px);
+}
+
+.team-work3 img {
+    transform: translate(-5px);
+}
+
+.team-work4 img {
+    transform: translate(-30px);
+}
+
+.team {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+.team:hover {
+    top: -30px;
+}
+
+.choose-text h2 {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.choose-btn button {
+    background: #58AAE5;
+    width: 241px;
+    height: 47px;
+    border: 1px solid #6DC2FF;
+    box-shadow: 0px 14px 28px rgba(156, 214, 255, 0.67);
+    border-radius: 27px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+}
